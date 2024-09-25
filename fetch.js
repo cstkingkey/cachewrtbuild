@@ -21,6 +21,7 @@ try {
         keyString = keyString + "-" + stdout;
         paths.push("staging_dir/host*");
         paths.push("staging_dir/tool*");
+        paths.push("staging_dir/target*")
     } else {
         skiptoolchain = false;
     }
