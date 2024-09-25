@@ -22,7 +22,7 @@ try {
             keyString = keyString + "-" + stdout;
             paths.push("staging_dir/host*");
             paths.push("staging_dir/tool*");
-            paths.push("staging_dir/target*/host*");
+            paths.push("staging_dir/target*")
         }
 
         const ccache = core.getInput("ccache");
